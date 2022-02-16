@@ -1,0 +1,259 @@
+1)brows = coding wikipedia
+
+ctr+d for selecting multiple lines and change them
+
+2)text analyzer
+3)word count
+
+5)``(backtick [it is like a string with in the javascript])==>represents template literal
+6)$==>represents use variables
+7)style={{}}==>first curly base for "javascript" and second curly bace for "object"
+
+8)npm install react-router-dom@5.2.0
+9)website:react router dom
+
+10)/* (why using exact) 
+    /users --->component1
+    /users/home ---->component2 */
+    if we don't use exact /users/home is renders previos component1
+<
+        Route exact path = "/about" >
+        <
+        About / >
+        <
+        /Route> <
+        Route exact path = "/" >
+
+
+11) <
+        div class = "accordion"
+        id = "accordionExample" >
+        <
+        div class = "accordion-item" >
+        <
+        h2 class = "accordion-header"
+        id = "headingOne" >
+        <
+        button class = "accordion-button"
+        type = "button"
+        data _ bs _ toggle = "collapse"
+        data _ bs _ target = "#collapseOne"
+        aria _ expanded = "true"
+        aria _ controls = "collapseOne" >
+        Accordion Item #1
+
+      </button>
+
+  </h2>
+
+     <div id= "collapseOne"
+        class = "accordion-collapse collapse show"
+        aria _ labelledby = "headingOne"
+        data _ bs _ parent = "#accordionExample" >
+        <
+        div class = "accordion-body" >
+        <
+        strong > This is the first item 's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It'
+        s also worth noting that just about any HTML can go within the < code > .accordion - body < /code>, though the transition does limit overflow. < /
+        div > <
+        /div> < /
+        div > <
+        div class = "accordion-item" >
+        <
+        h2 class = "accordion-header"
+        id = "headingTwo" >
+        <
+        button class = "accordion-button collapsed"
+        type = "button"
+        data _ bs _ toggle = "collapse"
+        data _ bs _ target = "#collapseTwo"
+        aria _ expanded = "false"
+        aria _ controls = "collapseTwo" >
+        Accordion Item #2
+
+</button>
+
+       </h2>
+
+     <div id= "collapseTwo"
+        class_ = "accordion-collapse collapse"
+        aria _ labelledby = "headingTwo"
+        data _ bs _ parent = "#accordionExample" >
+        <
+        div class = "accordion-body" >
+        <
+        strong > This is the second item 's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It'
+        s also worth noting that just about any HTML can go within the < code > .accordion - body < /code>, though the transition does limit overflow. < /
+        div > <
+        /div> < /
+        div > <
+        div class = "accordion-item" >
+        <
+        h2 class = "accordion-header"
+        id = "headingThree" >
+        <
+        button button class = "accordion-button collapsed"
+        type = "button"
+        data _ bs _ toggle = "collapse"
+        data _ bs _ target = "#collapseThree"
+        aria _ expanded = "false"
+        aria _ controls = "collapseThree" >
+        Accordion Item #3
+
+</button>
+
+ </h2>
+
+<div id= "collapseThree"
+        class = "accordion-collapse collapse"
+        aria _ labelledby = "headingThree"
+        data _ bs _ parent = "#accordionExample" >
+        <
+        div class = "accordion_body" >
+        <
+        strong > This is the third item 's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It'
+        s also worth noting that just about any HTML can go within the < code > .accordion - body < /code>, though the transition does limit overflow. < /
+        div > <
+        /div> < /
+        div > <
+        /div> 
+
+
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+<
+        div className = 'container' >
+        <
+        div class = "accordion"
+        id = "accordionExample" >
+        <
+        div class = "card" >
+        <
+        div class = "card-header"
+        id = "headingOne" >
+        <
+        h2 class = "mb-0" >
+        <
+        button class = "btn btn-link btn-block text-left"
+        type = "button"
+        data _ toggle = "collapse"
+        data _ target = "#collapseOne"
+        aria _ expanded = "true"
+        aria _ controls = "collapseOne" >
+        Collapsible Group Item #1
+
+
+
+              </button>
+
+
+
+            </h2>
+
+
+
+          </div>
+
+
+
+      
+
+
+
+          <div id= "collapseOne"
+        class = "collapse show"
+        aria _ labelledby = "headingOne"
+        data _ parent = "#accordionExample" >
+        <
+        div class = "card-body" >
+        Some placeholder content
+        for the first accordion panel.This panel is shown by
+        default, thanks to the < code > .show < /code> class. < /
+        div > <
+        /div> < /
+        div > <
+        div class = "card" >
+        <
+        div class = "card-header"
+        id = "headingTwo" >
+        <
+        h2 class = "mb-0" >
+        <
+        button class = "btn btn-link btn-block text-left collapsed"
+        type = "button"
+        data _ toggle = "collapse"
+        data _ target = "#collapseTwo"
+        aria _ expanded = "false"
+        aria _ controls = "collapseTwo" >
+        Collapsible Group Item #2
+
+
+
+              </button>
+
+
+
+            </h2>
+
+
+
+          </div>
+
+
+
+          <div id= "collapseTwo"
+        class = "collapse"
+        aria _ labelledby = "headingTwo"
+        data _ parent = "#accordionExample" >
+        <
+        div class = "card-body" >
+        Some placeholder content
+        for the second accordion panel.This panel is hidden by
+        default. <
+        /div> < /
+        div > <
+        /div> <
+        div class = "card" >
+        <
+        div class = "card-header"
+        id = "headingThree" >
+        <
+        h2 class = "mb-0" >
+        <
+        button class = "btn btn-link btn-block text-left collapsed"
+        type = "button"
+        data _ toggle = "collapse"
+        data _ target = "#collapseThree"
+        aria _ expanded = "false"
+        aria _ controls = "collapseThree" >
+        Collapsible Group Item #3
+
+
+
+              </button>
+
+
+
+            </h2>
+
+
+
+          </div>
+
+
+
+          <div id= "collapseThree"
+        class = "collapse"
+        aria_ labelledby = "headingThree"
+        data_ parent = "#accordionExample" >
+        <
+        div class = "card-body" >
+        And lastly, the placeholder content
+        for the third and final accordion panel.This panel is hidden by
+        default. <
+        /div> < /
+        div > <
+        /div> < /
+        div > < /
+        div >
+        888888888888888888888888888888888888888888888888888888888888888888888888888888
+        
